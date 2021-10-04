@@ -13,7 +13,7 @@ body {
 /* *** main *** */
 .container {
     width: 80%;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
 .clearfix::after {
@@ -23,9 +23,10 @@ body {
 }
 
 .box {
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 30px);
     line-height: 50px;
     position: relative;
+    margin-right: 10px;
 }
 
 
@@ -110,7 +111,10 @@ body {
 }
 
 .container .img-text {
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 30px);
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .img-text .marca {
