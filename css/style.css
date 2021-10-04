@@ -94,10 +94,10 @@ body {
 
 /* *** debug *** */
 
-.debug.container {
+/* .debug.container {
     background-color: rgb(248, 247, 237);
     height: 2000px;
-}
+} */
 
 /* .debug .box {
     border: 1px solid black;
