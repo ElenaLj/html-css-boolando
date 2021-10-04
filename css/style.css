@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* *** main *** */
 .container {
     width: 80%;
@@ -60,16 +64,27 @@
     right: 0;
 }
 
-.sconto {
-    width: 60px;
+.box .sconto, .box .sostenibilita {
     height: 50px;
     color: white;
-    font-size: 20px;
-    background-color: red;
-    vertical-align: middle;
-    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
     position: absolute;
     bottom: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.box .sconto {
+    width: 60px;
+    background-color: red;   
+}
+
+.box .sostenibilita {
+    text-transform: capitalize;
+    width: 110px;
+    background-color: #00875a;
+    left: 65px;
 }
 
 /* *** debug *** */
