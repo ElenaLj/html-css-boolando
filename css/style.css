@@ -6,7 +6,43 @@
     box-sizing: border-box;
 }
 
+/* *** main *** */
 .container {
     width: 80%;
-    margin: 0 auto;
+    margin: 50px auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row-1 .box, .row-2 .box {
+    width: calc(100% / 3);
+    height: 600px;
+}
+
+.left {
+    float: left;
+}
+/* *** row 1 *** */
+
+
+/* *** row 2 *** */
+
+/* *** debug *** */
+
+.debug.container {
+    background-color: rgb(248, 247, 237);
+    height: 2000px;
+}
+
+.debug .row-1,
+.debug .row-2 {
+    height: calc(100% / 2);
+}
+
+.debug .box {
+    border: 1px solid black;
 }
