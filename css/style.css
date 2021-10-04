@@ -92,6 +92,12 @@ body {
     background-color: red;
 }
 
+.box .sostenibilita {
+    text-transform: capitalize;
+    width: 110px;
+    background-color: #00875a;
+    left: 0px;
+}
 /* *** debug *** */
 
 /* .debug.container {
