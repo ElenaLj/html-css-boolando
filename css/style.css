@@ -64,7 +64,7 @@ body {
     right: 0;
 }
 
-.box .sconto, .box .sostenibilita {
+.box .sconto50, .box .sostenibilita, .box .sconto30 {
     height: 50px;
     color: white;
     font-size: 18px;
@@ -75,7 +75,7 @@ body {
     vertical-align: middle;
 }
 
-.box .sconto {
+.box .sconto50 {
     width: 60px;
     background-color: red;   
 }
@@ -85,6 +85,11 @@ body {
     width: 110px;
     background-color: #00875a;
     left: 65px;
+}
+
+.box .sconto30 {
+    width: 60px;
+    background-color: red;
 }
 
 /* *** debug *** */
