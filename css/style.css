@@ -82,7 +82,8 @@ body {
 
 .box .sostenibilita {
     text-transform: capitalize;
-    width: 110px;
+    width: 120px;
+    padding: 2px;
     background-color: #00875a;
     left: 65px;
 }
@@ -92,11 +93,20 @@ body {
     background-color: red;
 }
 
-.box .sostenibilita {
-    text-transform: capitalize;
-    width: 110px;
+.box .sostenibilita-2 {
+    width: 120px;
+    height: 50px;
+    padding: 1px;
+    color: white;
     background-color: #00875a;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    vertical-align: middle;
+    position: absolute;
     left: 0px;
+    bottom: 50px;
 }
 /* *** debug *** */
 
